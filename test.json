@@ -1,0 +1,17 @@
+{
+  "name": "Test Data",
+  "version": "1.0.0",
+  "users": [
+    { "id": 1, "name": "Alice", "email": "alice@example.com", "active": true },
+    { "id": 2, "name": "Bob", "email": "bob@example.com", "active": false },
+    { "id": 3, "name": "Charlie", "email": "charlie@example.com", "active": true }
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": { "email": true, "push": false },
+    "limits": { "maxItems": 100, "timeout": 30000 }
+  },
+  "tags": ["important", "featured", "new"],
+  "metadata": null,
+  "createdAt": "2024-01-15T10:30:00Z"
+}
