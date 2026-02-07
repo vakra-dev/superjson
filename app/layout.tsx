@@ -13,22 +13,32 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "superjson.dev - The Fastest JSON Explorer",
+  title: "superjson - Simple, beautiful JSON",
   description:
-    "A beautiful, fast, keyboard-driven JSON explorer. Open source, no tracking, 13 themes. Built for developers.",
-  keywords: ["JSON", "explorer", "viewer", "developer tools", "open source"],
-  authors: [{ name: "superjson.dev" }],
+    "A keyboard driven JSON explorer. Simple, beautiful, fast. Vim style navigation, beautiful themes, smart search, share links. Open source, zero tracking.",
+  keywords: [
+    "JSON",
+    "explorer",
+    "viewer",
+    "editor",
+    "formatter",
+    "validator",
+    "developer tools",
+    "open source",
+  ],
+  authors: [{ name: "Nihal", url: "https://github.com/nihalwashere" }],
+  metadataBase: new URL("https://superjson.dev"),
   openGraph: {
-    title: "superjson.dev",
-    description: "The fastest JSON explorer. No noise. Just JSON.",
+    title: "superjson",
+    description: "A keyboard driven JSON explorer. Simple, beautiful, fast.",
     url: "https://superjson.dev",
-    siteName: "superjson.dev",
+    siteName: "superjson",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "superjson.dev",
-    description: "The fastest JSON explorer. No noise. Just JSON.",
+    title: "superjson",
+    description: "A keyboard driven JSON explorer. Simple, beautiful, fast.",
   },
 };
 

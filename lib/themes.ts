@@ -400,7 +400,7 @@ export const mint: Theme = {
 // THEME COLLECTIONS
 // ============================================================================
 
-export const defaultTheme = glacier;
+export const defaultTheme = paper;
 
 // All themes available in the editor
 export const allThemes: Theme[] = [

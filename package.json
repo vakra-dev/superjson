@@ -4,7 +4,7 @@
   "private": true,
   "description": "A keyboard driven JSON explorer. Simple, beautiful, fast.",
   "license": "MIT",
-  "author": "Nihal <nihal.codes@gmail.com>",  
+  "author": "Nihal (https://github.com/nihalwashere)",  
   "repository": {
     "type": "git",
     "url": "https://github.com/vakra-dev/superjson.git"
