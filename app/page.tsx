@@ -70,7 +70,7 @@ export default function HomePage() {
       } as React.CSSProperties}
     >
       {/* Header */}
-      <header className="border-b border-[var(--border)] bg-[var(--bg-base)] fixed top-0 left-0 right-0 z-50">
+      <header className="border-b border-[var(--border)] bg-[var(--bg-base)] fixed top-[40px] left-0 right-0 z-50">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center">
             <span className="text-lg font-mono font-medium">

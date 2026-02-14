@@ -48,7 +48,7 @@ export function Header({ onImportFile, onImportUrl }: HeaderProps) {
   };
 
   return (
-    <header className="h-12 flex items-center justify-between px-4 border-b border-[var(--border)] bg-[var(--bg-surface)]/80 backdrop-blur-sm sticky top-0 z-40">
+    <header className="h-12 flex items-center justify-between px-4 border-b border-[var(--border)] bg-[var(--bg-surface)]/80 backdrop-blur-sm sticky top-[40px] z-40">
       <div className="flex items-center gap-3">
         <span className="text-[15px] font-mono font-medium">
           <span className="text-[var(--accent)]">{"{ "}</span>
